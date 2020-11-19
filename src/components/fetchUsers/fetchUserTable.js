@@ -39,6 +39,7 @@ const useStyles = makeStyles({
 
 const FetchUserTable = (users) => {
   const classes = useStyles();
+  //the table should have pagination if the data is more extensive.
   return (
     <Fragment>
       <h3 className={classes.title}>Users Data</h3>

@@ -6,6 +6,7 @@ This app is created in React and the propose is connect with my-user-manager api
 
 - Summary of set up
   - Run `npm install`
+  - Set up the environments variables. (Should create .env file in project root)
 
 ## 🎓 How to use?
 
@@ -25,6 +26,16 @@ In the `package.json` you will see these scripts:
 1.  **`start`**: Runs the app in the development mode.
     ​
 2.  **`build`**: Create a production build.
+
+### Environment Variables ###
+
+Variables                          | Usage
+-----------------------------------| -------------------------------------------------------------
+REACT_APP_USERS_API(*)             | URL of api to fetch users.
+
+
+
+(*) = required variable.
 
 ## Dependencies
 

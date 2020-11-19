@@ -12,8 +12,10 @@ const FetchUsers = () => {
 
   useEffect(() => {
     //fetch users from api
+    const url = process.env.REACT_APP_USERS_API
+    console.log(url, 'url')
     axios
-      .get("https://my-user-manager.herokuapp.com/users")
+      .get(url)
       .then((res) => {
         //set in local state the users
         setUsers(res.data);
