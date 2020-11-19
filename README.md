@@ -15,12 +15,10 @@ In the `package.json` you will see these scripts:
 
 ```json
 {
-  //..//
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
   }
-  //...//
 }
 ```
 
