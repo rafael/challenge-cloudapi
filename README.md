@@ -31,7 +31,7 @@ In the `package.json` you will see these scripts:
 
 Variables                          | Usage
 -----------------------------------| -------------------------------------------------------------------------
-REACT_APP_USERS_API(*)             | "https://my-user-manager.herokuapp.com/users", URL of api to fetch users.
+REACT_APP_USERS_API(*)             | https://my-user-manager.herokuapp.com/users, URL of api to fetch users.
 
 
 
