@@ -13,7 +13,6 @@ const FetchUsers = () => {
   useEffect(() => {
     //fetch users from api
     const url = process.env.REACT_APP_USERS_API
-    console.log(url, 'url')
     axios
       .get(url)
       .then((res) => {
