@@ -6,7 +6,7 @@ This app is created in React and the propose is connect with my-user-manager api
 
 - Summary of set up
   - Run `npm install`
-  - Set up the environments variables. (Should create .env file in project root)
+  - Set up the environments variables.
 
 ## 🎓 How to use?
 
