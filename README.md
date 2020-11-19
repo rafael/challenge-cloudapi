@@ -49,6 +49,8 @@ REACT_APP_USERS_API(*)             | https://my-user-manager.herokuapp.com/users
 ## Repo structure
 
 ```
+├─ public/                      #Project render browser
+|
 ├─ src/
 │  ├─ components/               # Components
 │  │  ├─ fetchUsers/            # …that consume api to render users data
@@ -57,7 +59,7 @@ REACT_APP_USERS_API(*)             | https://my-user-manager.herokuapp.com/users
 |  |
 │  ├─ App.js/                   # Render the components
 |  |
-│  |─ index.css/                # Global Style
+│  |─ index.css/                # Global file to styles
 |  |
 │  |─ index.js/                 # Entry point of the app
 │
