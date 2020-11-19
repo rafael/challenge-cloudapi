@@ -46,3 +46,25 @@ REACT_APP_USERS_API(*)             | https://my-user-manager.herokuapp.com/users
 - react-dom: Rendering the components in the DOM.
 - react-scripts: Read scripts.
 
+## Repo structure
+
+```
+/
+├─ src/
+│  ├─ components/               # Components
+│  │  ├─ fetchUsers/            # …that consume api to render users data
+│  │  ├─ navbar/                # …that appear on all the app
+│  │  ├─ utils/                 # …that has a view to show errors
+|  |
+│  ├─ App.js/                   # Render the components
+|  |
+│  |─ index.css/                # Global Style
+|  |
+│  |─ index.js/                 # Entry point of the app
+│
+├─ .gitignore                   # List of files and folders not tracked by Git
+├─ .env.example                 # Example .env file
+├─ package.json                 # Project manifest
+└─ README.md                    # This file
+```
+
