@@ -1,5 +1,5 @@
 //Import Dependencies
-import React from "react";
+import React, { Fragment } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 //Styles
@@ -12,10 +12,10 @@ const useStyles = makeStyles({
 const ErrorView = (error) => {
   const classes = useStyles();
   return (
-    <div>
-      <h3 className={classes.title}> Error: </h3>
-      <p className={classes.title}>{error.error} </p>
-    </div>
+        <div>
+          <h3 className={classes.title}> Error: </h3>
+          <p className={classes.title}>{error.error} </p>
+        </div>
   );
 };
 
