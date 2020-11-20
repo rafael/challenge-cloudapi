@@ -1,6 +1,6 @@
 # CloudApi Challenge
 
-This app is created in React and the propose is connect with my-user-manager api and list the info from users in a view.
+This app is created in React and the purpose is connect with my-user-manager api and list the info from users in a view.
 
 ### First Time Setup
 
